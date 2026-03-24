@@ -1,1 +1,81 @@
-hello world
+<!DOCTYPE html>
+<header>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</header>
+<body>
+    <div class="nav-bar">
+
+    </div>
+    <div class="div-title">
+        <h1 class="site-title">Hugo FILERI</h1>
+        <div class="div-subtitle">
+            <h3 class="subtitle-slash">//</h3>
+            <h3 class="subtitle">Devlopper</h3>
+        </div>
+    </div>
+    <hr class="divider">
+    <div class="my-story">
+        <h4 class="story">
+            Hey, I'm Hugo — a student at 42 School, diving deep into both software development and networking.<br>
+            I enjoy building things from scratch, whether it's a web app or a network architecture.<br>
+            This portfolio showcases the personal projects I've worked on throughout my journey.<br>
+        </h4>
+        <hr class="divider">
+        <h2>Technical stack</h2>
+        <div class="stack-technique">
+            <span class="badge">HTML5</span>
+            <span class="badge">CSS</span>
+            <span class="badge">C</span>
+            <span class="badge">Python</span>
+        </div>
+    </div>
+    <hr class="divider">
+    <div class="div-project">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <button class="project" onclick="ouvrirModal('modal1')">Libft
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="fermerModal()">&times;</span>
+                        <p>Libft Project !</p>
+                        <p>The Libft Project il a simple project with a multitude of differents programs.</p>
+                        <img src="img/libft-tree.png" alt="libft-tree" class="libft-tree">
+                    </div>
+                </div>
+            </button>
+            <button class="project" onclick="ouvrirModal('modal2')">Push swap
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="fermerModal()">&times;</span>
+                        <p>Push swap Project !</p>
+                        <p>The Push swap Project il a simple project with 2 stack A and B, the goal is to sort stack A with the help of stack B.</p>
+                        <img src="img/PushSwap-tree.png" alt="pushswap-tree" class="pushswap-tree">
+                    </div>
+                </div>
+            </button>
+            <button class="project" onclick="ouvrirModal('modal3')">Get next line
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="fermerModal()">&times;</span>
+                        <p>Get next line  Project !</p>
+                        <p>The Get next line Project is a project when we need to print a file content line per line</p>
+                        <img src="img/gnl-tree.png" alt="gnl-tree" class="gnl-tree">
+                    </div>
+                </div>
+            </button>
+            <button class="project" onclick="ouvrirModal('modal4')">A-maze-ing
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="fermerModal()">&times;</span>
+                        <p>A-maze-ing Project !</p>
+                        <p>The A-maze-ing Project is a simple project with a generation maze and solver. We need to print him on terminal, change his color and sole him.</p>
+                        <img src="img/amazing-tree.png" alt="amazing-tree" class="amazing-tree">
+                    </div>
+                </div>
+            </button>
+        </div>
+    </div>
+</body>

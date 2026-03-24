@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=JetBrains+Mono:wght@300;400;600&display=swap');
+
+body{
+    background: linear-gradient(to right, #0d152d, rgba(24, 47, 24, 0.521));
+}
+
+
+.div-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.div-subtitle{
+    display: flex;
+    align-items: center;
+}
+
+.site-title{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+}
+
+.subtitle-slash{
+    font-family: 'JetBrains Mono', sans-serif;
+    color: rgb(179, 15, 179);
+}
+
+.subtitle{
+    font-family: 'JetBrains Mono', sans-serif;
+    color: white;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid white;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.my-story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 350px;
+}
+
+.story{
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.stack-technique {
+    display: flex;
+    align-items: center;
+}
+
+.stack-technique {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    padding: 8px 20px;
+    border-radius: 999px;
+    border: 1px solid rgb(179, 15, 179);
+    color: rgb(255, 33, 255);
+    background: rgba(124, 111, 255, 0.1);
+    transition: all 0.2s;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.badge:hover {
+    background: rgb(179, 15, 179);
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.div-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    padding: 8px 20px;
+    border-radius: 999px;
+    border: 1px solid rgb(179, 15, 179);
+    color: rgb(255, 33, 255);
+    background: rgba(124, 111, 255, 0.1);
+    transition: all 0.2s;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.project:hover {
+    background: rgb(179, 15, 179);
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.723);
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.modal-content {
+    background: rgba(163, 101, 201, 0.8);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    max-height: 80vh;
+    overflow-y: auto;
+    margin: auto;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.libft-tree{
+    max-width: 75%;
+}
+
+.pushswap-tree{
+    max-width: 75%;
+}
+
+.gnl-tree{
+    max-width: 75%;
+}
+
+.amazing-tree{
+    max-width: 75%;
+}
